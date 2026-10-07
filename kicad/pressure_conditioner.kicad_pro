@@ -428,13 +428,18 @@
       {
         "filename": "pressure_conditioner.kicad_sch",
         "name": "pressure_conditioner",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
       }
     ],
     "used_designators": "",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "d1a2bab1-03ca-4de0-a936-00ed771cb4f3",
+      "pressure_conditioner"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
