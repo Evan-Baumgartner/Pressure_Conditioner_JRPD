@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "d1a2bab1-03ca-4de0-a936-00ed771cb4f3")
 	(paper "A4")
+	(title_block
+		(title "Three Channel Pressure Signal Conditioner")
+		(rev "A")
+		(company "JRPD")
+	)
 	(lib_symbols
 		(symbol "Pressure:5023520201"
 			(body_styles demorgan)
@@ -1196,6 +1201,64 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 116.84 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7146db49-6b28-4a8c-b727-8405a4696679")
+	)
+	(junction
+		(at 111.76 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac75d692-4e1c-435e-9eb4-2248fb82bc87")
+	)
+	(junction
+		(at 154.94 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df689cc9-329b-4c2f-a9e2-b45e5a93a4f2")
+	)
+	(wire
+		(pts
+			(xy 154.94 50.8) (xy 154.94 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03cacb39-f91c-4c3e-be7a-739d6419286f")
+	)
+	(wire
+		(pts
+			(xy 38.1 83.82) (xy 45.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "073df201-1e2d-48fb-8e67-a961a089fdb4")
+	)
+	(wire
+		(pts
+			(xy 152.4 88.9) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e751f6e-3d45-472d-8c15-4c5774a6b17f")
+	)
+	(wire
+		(pts
+			(xy 116.84 121.92) (xy 116.84 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10660395-1fc8-4761-8bb9-4ffa2f8dcd45")
+	)
 	(wire
 		(pts
 			(xy 250.19 53.34) (xy 254 53.34)
@@ -1208,13 +1271,33 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 41.91) (xy 104.14 38.1)
+			(xy 154.94 53.34) (xy 154.94 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2afe354f-1f6a-4ed7-adc9-877281bd8df2")
+	)
+	(wire
+		(pts
+			(xy 154.94 50.8) (xy 180.34 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f1e3192-12ef-41c0-96ff-af420fb95520")
+	)
+	(wire
+		(pts
+			(xy 152.4 88.9) (xy 152.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3209fb1e-4356-4ef6-9b63-d76bb3d17052")
 	)
 	(wire
 		(pts
@@ -1238,13 +1321,53 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 81.28) (xy 50.8 81.28)
+			(xy 38.1 109.22) (xy 45.72 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "523d08a9-e80c-445a-8753-751155043455")
+		(uuid "413416dc-b467-4533-87f7-189c01485b00")
+	)
+	(wire
+		(pts
+			(xy 187.96 71.12) (xy 187.96 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc3ad84-4766-4e8c-bc2f-73c4f8200b53")
+	)
+	(wire
+		(pts
+			(xy 76.2 139.7) (xy 88.9 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e443a07-0c71-4312-a5d8-803c544f168c")
+	)
+	(wire
+		(pts
+			(xy 193.04 71.12) (xy 193.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62cdf0fb-20eb-4222-91ad-04103829a18c")
+	)
+	(wire
+		(pts
+			(xy 38.1 60.96) (xy 43.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ed9ca4-7d21-483b-9e4e-4a89475b73f0")
 	)
 	(wire
 		(pts
@@ -1258,7 +1381,27 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 38.1) (xy 106.68 43.18)
+			(xy 111.76 127) (xy 116.84 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dcd9cf3-796d-408b-9d88-4a9806b8b64e")
+	)
+	(wire
+		(pts
+			(xy 116.84 71.12) (xy 116.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a50881-ee5c-407f-800a-f4d8327a83c1")
+	)
+	(wire
+		(pts
+			(xy 157.48 38.1) (xy 157.48 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1268,23 +1411,73 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 55.88) (xy 50.8 55.88)
+			(xy 38.1 58.42) (xy 45.72 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7c4fde2-e863-4f88-8bea-f474300d5bbc")
+		(uuid "9b998ba1-5c4e-4c0b-ae5f-7688a302c560")
 	)
 	(wire
 		(pts
-			(xy 54.61 106.68) (xy 50.8 106.68)
+			(xy 38.1 111.76) (xy 43.18 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e123171a-8ed7-4eeb-ba7e-604e94a02db0")
+		(uuid "aa5effc9-5756-4474-b94b-fc258fdfa8ea")
+	)
+	(wire
+		(pts
+			(xy 76.2 139.7) (xy 76.2 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca0ab654-b14d-494d-94c2-892e3b842104")
+	)
+	(wire
+		(pts
+			(xy 76.2 91.44) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25dc56c-0162-46ad-85d2-48afd82e32ed")
+	)
+	(wire
+		(pts
+			(xy 180.34 40.64) (xy 180.34 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dceff656-c84f-4e99-887a-8fca158e0b92")
+	)
+	(wire
+		(pts
+			(xy 38.1 86.36) (xy 43.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2efcfdb-e7a9-4eee-b8eb-adb5c9cf4570")
+	)
+	(wire
+		(pts
+			(xy 76.2 88.9) (xy 88.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c735ff-9d27-47e4-b177-ed2dfd231bec")
 	)
 	(wire
 		(pts
@@ -1295,6 +1488,56 @@
 			(type default)
 		)
 		(uuid "ea63603a-76bd-4379-8185-a441edbb99b8")
+	)
+	(wire
+		(pts
+			(xy 111.76 127) (xy 111.76 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c6a211-e4dd-4c3e-a252-5a8e5746163a")
+	)
+	(wire
+		(pts
+			(xy 111.76 71.12) (xy 111.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fadf5899-9d8e-430f-8ae2-ca1b0abd43b7")
+	)
+	(label "I_P3"
+		(at 45.72 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38c22ad3-2477-4220-a014-a7a1d77662f7")
+	)
+	(label "I_P2"
+		(at 45.72 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c21c9e9-d641-4c56-9883-adcc2efae09c")
+	)
+	(label "I_P1"
+		(at 45.72 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99dde5c2-e809-4d57-9101-7fa095408c8d")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1376,7 +1619,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 180.34 40.64 180)
+		(at 43.18 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1384,9 +1627,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "435cf672-02ad-4211-b454-1c72900fb41f")
-		(property "Reference" "#PWR09"
-			(at 180.34 36.83 0)
+		(fields_autoplaced yes)
+		(uuid "2ec3a7ba-d424-4f7a-80ce-8bf9e2b2b29d")
+		(property "Reference" "#PWR07"
+			(at 39.37 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1397,17 +1641,18 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 179.832 44.704 0)
+			(at 46.99 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 40.64 0)
+			(at 43.18 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1418,7 +1663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 40.64 0)
+			(at 43.18 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1429,7 +1674,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 180.34 40.64 0)
+			(at 43.18 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1440,12 +1685,166 @@
 			)
 		)
 		(pin "1"
-			(uuid "576be48d-b801-4fe7-a910-0ac26f0c5a65")
+			(uuid "537f0b14-877b-4bfd-93d6-8a91bbfefdc7")
 		)
 		(instances
 			(project "pressure_conditioner"
 				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
-					(reference "#PWR09")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 116.84 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3dea6a40-85dd-47a1-a1aa-2a59a038436e")
+		(property "Reference" "#PWR027"
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-15V"
+			(at 117.094 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d473e53-c45e-43ca-9d8e-8914ee62d052")
+		)
+		(instances
+			(project "pressure_conditioner"
+				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 187.96 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "43d2eb7e-4bb7-4c9b-849d-b8a2f7171a42")
+		(property "Reference" "#PWR030"
+			(at 187.96 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+15V"
+			(at 187.706 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 187.96 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b6b9cae-206b-4532-b526-e9ca74953604")
+		)
+		(instances
+			(project "pressure_conditioner"
+				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -1530,7 +1929,7 @@
 	)
 	(symbol
 		(lib_id "Pressure:5023520201")
-		(at 104.14 38.1 90)
+		(at 154.94 38.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1540,7 +1939,7 @@
 		(dnp no)
 		(uuid "4c11a9d9-5d19-49e3-ab52-4fdc72880d1d")
 		(property "Reference" "J1"
-			(at 104.394 20.066 90)
+			(at 155.194 20.066 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1550,8 +1949,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5023520201"
-			(at 104.394 22.606 90)
+		(property "Value" "24V Power Conn"
+			(at 155.194 22.606 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1562,7 +1961,7 @@
 			)
 		)
 		(property "Footprint" "CONN_SD-502352-001_02_MOL"
-			(at 104.14 38.1 0)
+			(at 154.94 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1574,7 +1973,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5023520201?display=pdf"
-			(at 104.14 38.1 0)
+			(at 154.94 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1586,7 +1985,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 38.1 0)
+			(at 154.94 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1627,10 +2026,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "50bb18b2-4552-4e6d-95d9-3bc673e31a04")
 		(property "Reference" "U1"
-			(at 204.47 31.7499 0)
+			(at 181.356 21.336 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1640,8 +2038,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 165.1 38.1 0)
+		(property "Value" "24V +-15V Converter"
+			(at 191.262 23.876 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1708,9 +2106,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 54.61 106.68 0)
-		(mirror y)
+		(lib_id "power:+15V")
+		(at 111.76 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1718,9 +2115,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "594e5acf-537c-47ef-a985-a88658c61ddd")
-		(property "Reference" "#PWR06"
-			(at 54.61 113.03 0)
+		(uuid "57f073f7-4c11-4819-8496-1de954ba71e2")
+		(property "Reference" "#PWR026"
+			(at 111.76 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1730,8 +2127,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 54.61 111.76 0)
+		(property "Value" "+15V"
+			(at 111.506 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1741,7 +2138,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 106.68 0)
+			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1752,7 +2149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 106.68 0)
+			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1762,8 +2159,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 106.68 0)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1774,12 +2171,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "02ef6106-7f97-4ed0-9a97-0ca9f949c65b")
+			(uuid "9e99f3e7-ad8b-437d-9bf0-216abf0d0254")
 		)
 		(instances
 			(project "pressure_conditioner"
 				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
-					(reference "#PWR06")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1787,7 +2184,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 104.14 41.91 180)
+		(at 154.94 53.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1797,7 +2194,7 @@
 		(dnp no)
 		(uuid "69d85914-5155-4886-8b0d-906a3af220dd")
 		(property "Reference" "#PWR01"
-			(at 104.14 38.1 0)
+			(at 154.94 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1808,7 +2205,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 103.124 43.688 0)
+			(at 153.924 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1819,7 +2216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 41.91 0)
+			(at 154.94 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1830,7 +2227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 41.91 0)
+			(at 154.94 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1841,7 +2238,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 104.14 41.91 0)
+			(at 154.94 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1858,6 +2255,163 @@
 			(project "pressure_conditioner"
 				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 43.18 111.76 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72f13359-1736-4093-ab74-a6ae2e784565")
+		(property "Reference" "#PWR08"
+			(at 39.37 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+15V"
+			(at 46.99 111.7599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+			(at 43.18 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 43.18 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6a517e7-9981-44d5-9500-5ab2639e137d")
+		)
+		(instances
+			(project "pressure_conditioner"
+				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74f54323-e814-47f2-b039-2d4992caffd9")
+		(property "Reference" "#PWR033"
+			(at 76.2 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1df6c038-0f53-41e4-804c-478c04ec641e")
+		)
+		(instances
+			(project "pressure_conditioner"
+				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2020,84 +2574,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 55.88 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a84c1c77-25f5-4d46-bc21-683cd0237ec0")
-		(property "Reference" "#PWR08"
-			(at 54.61 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.61 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fea28057-8235-4a75-ac7a-e436b4a280e3")
-		)
-		(instances
-			(project "pressure_conditioner"
-				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 250.19 78.74 0)
 		(unit 1)
 		(body_style 1)
@@ -2175,9 +2651,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 54.61 81.28 0)
-		(mirror y)
+		(lib_id "power:+15V")
+		(at 193.04 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2185,9 +2660,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b354b7cf-7afc-4694-b9bc-3b3d27686417")
-		(property "Reference" "#PWR07"
-			(at 54.61 87.63 0)
+		(uuid "acd1a293-5c45-4d67-93c0-6d3c96b514d4")
+		(property "Reference" "#PWR031"
+			(at 193.04 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2197,8 +2672,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 54.61 86.36 0)
+		(property "Value" "-15V"
+			(at 193.294 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2208,7 +2683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 81.28 0)
+			(at 193.04 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2219,7 +2694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 81.28 0)
+			(at 193.04 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2229,8 +2704,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 81.28 0)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 193.04 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2241,12 +2716,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f118eb9-3d80-4862-8ccf-b8d5e5d4e590")
+			(uuid "229b8340-cac4-4266-93c1-5fcdb2363c78")
 		)
 		(instances
 			(project "pressure_conditioner"
 				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
-					(reference "#PWR07")
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 43.18 60.96 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad295af1-cb00-4240-925a-2c5296bc31ec")
+		(property "Reference" "#PWR06"
+			(at 39.37 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 46.99 60.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 43.18 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5e49ad6-bc24-40a0-934d-aad063a0b71d")
+		)
+		(instances
+			(project "pressure_conditioner"
+				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2275,7 +2829,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5023520201"
+		(property "Value" "P1 Vout Conn"
 			(at 267.97 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2344,7 +2898,7 @@
 	)
 	(symbol
 		(lib_id "Pressure:5023520201")
-		(at 50.8 83.82 180)
+		(at 38.1 86.36 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2355,29 +2909,27 @@
 		(fields_autoplaced yes)
 		(uuid "baa569db-bbc8-4ddf-bd8f-570d4799d2fa")
 		(property "Reference" "J6"
-			(at 36.83 81.2801 0)
+			(at 29.21 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5023520201"
-			(at 36.83 78.7401 0)
+		(property "Value" "P2 Sensor Conn"
+			(at 29.21 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "CONN_SD-502352-001_02_MOL"
-			(at 50.8 83.82 0)
+			(at 38.1 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2389,7 +2941,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5023520201?display=pdf"
-			(at 50.8 83.82 0)
+			(at 38.1 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2401,7 +2953,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 83.82 0)
+			(at 38.1 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2434,7 +2986,7 @@
 	)
 	(symbol
 		(lib_id "Pressure:5023520201")
-		(at 50.8 109.22 180)
+		(at 38.1 111.76 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2445,29 +2997,27 @@
 		(fields_autoplaced yes)
 		(uuid "c4cd9d87-c9fa-40aa-b422-6b68fad85823")
 		(property "Reference" "J5"
-			(at 36.83 106.6801 0)
+			(at 29.21 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5023520201"
-			(at 36.83 104.1401 0)
+		(property "Value" "P3 Sensor Conn"
+			(at 29.21 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "CONN_SD-502352-001_02_MOL"
-			(at 50.8 109.22 0)
+			(at 38.1 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2479,7 +3029,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5023520201?display=pdf"
-			(at 50.8 109.22 0)
+			(at 38.1 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2491,7 +3041,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 109.22 0)
+			(at 38.1 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2545,7 +3095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5023520201"
+		(property "Value" "P3 Vout Conn"
 			(at 267.97 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2691,6 +3241,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 76.2 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd9c115d-e548-48ec-83bc-5de198c99de1")
+		(property "Reference" "#PWR032"
+			(at 76.2 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e02563b-9f3d-42fb-9b3d-2f54f8661512")
+		)
+		(instances
+			(project "pressure_conditioner"
+				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Pressure:5023520201")
 		(at 254 76.2 0)
 		(unit 1)
@@ -2713,7 +3341,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5023520201"
+		(property "Value" "P2 Vout Conn"
 			(at 267.97 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2781,8 +3409,163 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 152.4 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2b355f1-e7fb-4b70-a13a-dda315ff3a53")
+		(property "Reference" "#PWR034"
+			(at 152.4 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82b155d8-6136-4e57-9341-0130263203cd")
+		)
+		(instances
+			(project "pressure_conditioner"
+				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 111.76 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e782b3d0-e63a-471b-a096-1ecf9ea7f084")
+		(property "Reference" "#PWR028"
+			(at 111.76 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+15V"
+			(at 111.506 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 111.76 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15cbb9c9-00d7-4ac0-957c-675e45d5eb54")
+		)
+		(instances
+			(project "pressure_conditioner"
+				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Pressure:5023520201")
-		(at 50.8 58.42 180)
+		(at 38.1 60.96 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2793,29 +3576,27 @@
 		(fields_autoplaced yes)
 		(uuid "ef680dd2-2011-4741-aa87-c5e9b08d246c")
 		(property "Reference" "J7"
-			(at 36.83 55.8801 0)
+			(at 29.21 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5023520201"
-			(at 36.83 53.3401 0)
+		(property "Value" "P1 Sensor Conn"
+			(at 29.21 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "CONN_SD-502352-001_02_MOL"
-			(at 50.8 58.42 0)
+			(at 38.1 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2827,7 +3608,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5023520201?display=pdf"
-			(at 50.8 58.42 0)
+			(at 38.1 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2839,7 +3620,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 58.42 0)
+			(at 38.1 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2865,6 +3646,83 @@
 			(project "pressure_conditioner"
 				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 116.84 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2169ab7-7b4e-4fa7-93ee-93e9eb402fb0")
+		(property "Reference" "#PWR029"
+			(at 116.84 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-15V"
+			(at 117.094 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 116.84 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55babf13-971c-42f2-b6d9-34852b07c566")
+		)
+		(instances
+			(project "pressure_conditioner"
+				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2950,7 +3808,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 43.18 0)
+		(at 157.48 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2960,7 +3818,7 @@
 		(dnp no)
 		(uuid "fc5a8de8-3c5e-4301-9448-055f8b38dd5b")
 		(property "Reference" "#PWR02"
-			(at 106.68 49.53 0)
+			(at 157.48 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2971,7 +3829,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.982 44.704 0)
+			(at 160.782 44.704 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2981,7 +3839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 43.18 0)
+			(at 157.48 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2992,7 +3850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 43.18 0)
+			(at 157.48 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3003,7 +3861,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 43.18 0)
+			(at 157.48 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3026,7 +3884,7 @@
 		)
 	)
 	(sheet
-		(at 83.82 66.04)
+		(at 88.9 76.2)
 		(size 48.26 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3041,8 +3899,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "37aadd6b-2f24-4a7a-95b6-36c8865998ad")
-		(property "Sheetname" "Pressure_Channel"
-			(at 83.82 65.3284 0)
+		(property "Sheetname" "Pressure_Channel1"
+			(at 88.9 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3053,7 +3911,7 @@
 			)
 		)
 		(property "Sheetfile" "Pressure_Channel.kicad_sch"
-			(at 83.82 99.6446 0)
+			(at 88.9 109.8046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3063,10 +3921,252 @@
 				(justify left top)
 			)
 		)
+		(pin "+15V" input
+			(at 111.76 76.2 90)
+			(uuid "e3b81e0f-2377-4d3d-9160-553e5d0146dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-15V" input
+			(at 116.84 76.2 90)
+			(uuid "dc7d6a52-ed82-4136-ba15-0e2b2a99cfa6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CT" input
+			(at 88.9 88.9 180)
+			(uuid "8fba7075-dc97-45cb-98e1-084e6c04deab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I_in" input
+			(at 88.9 93.98 180)
+			(uuid "ab0e727d-5392-4856-8488-539fe2dbf8d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_out" input
+			(at 137.16 93.98 0)
+			(uuid "132049ef-2a54-4232-837f-04089b87d2a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "pressure_conditioner"
 				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 127)
+		(size 48.26 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d1451d03-fec6-4cbb-9f6d-c808002a48c4")
+		(property "Sheetname" "Pressure_Channel2"
+			(at 88.9 126.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pressure_Channel.kicad_sch"
+			(at 88.9 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+15V" input
+			(at 111.76 127 90)
+			(uuid "b2f99a8f-7583-40bc-8e28-79447aef761a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-15V" input
+			(at 116.84 127 90)
+			(uuid "a5be655b-896b-441c-8f32-2809d7c98096")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CT" input
+			(at 88.9 139.7 180)
+			(uuid "9253ecd3-2402-4d6a-822a-edbf3ebcc106")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I_in" input
+			(at 88.9 144.78 180)
+			(uuid "5cca4afb-501e-416b-bb2c-c67af466c756")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_out" input
+			(at 137.16 144.78 0)
+			(uuid "e6f9f9ac-3379-4572-922f-cdf1eaed94c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pressure_conditioner"
+				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 76.2)
+		(size 48.26 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "db7fca88-321a-44d3-ab15-233d0aa15f41")
+		(property "Sheetname" "Pressure_Channel3"
+			(at 165.1 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pressure_Channel.kicad_sch"
+			(at 165.1 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+15V" input
+			(at 187.96 76.2 90)
+			(uuid "9cceed1e-3467-4c61-885a-d4aaad94c65f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-15V" input
+			(at 193.04 76.2 90)
+			(uuid "f7552ffa-ce67-42ae-b2f9-428275e36880")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CT" input
+			(at 165.1 88.9 180)
+			(uuid "b7ccea21-5348-46b8-9067-5b1f85abb2b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I_in" input
+			(at 165.1 93.98 180)
+			(uuid "00964034-abc3-4c5d-8018-5b58b679f2fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_out" input
+			(at 213.36 93.98 0)
+			(uuid "534d6bc4-e8f8-46f9-addb-486ebd2afe48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pressure_conditioner"
+				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
+					(page "4")
 				)
 			)
 		)
