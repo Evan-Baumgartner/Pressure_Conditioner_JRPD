@@ -3025,52 +3025,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 83.82 66.04)
-		(size 48.26 33.02)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "37aadd6b-2f24-4a7a-95b6-36c8865998ad")
-		(property "Sheetname" "Pressure_Channel"
-			(at 83.82 65.3284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Pressure_Channel.kicad_sch"
-			(at 83.82 99.6446 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "pressure_conditioner"
-				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
-					(page "2")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")

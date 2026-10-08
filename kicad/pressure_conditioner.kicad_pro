@@ -438,6 +438,10 @@
     [
       "d1a2bab1-03ca-4de0-a936-00ed771cb4f3",
       "pressure_conditioner"
+    ],
+    [
+      "37aadd6b-2f24-4a7a-95b6-36c8865998ad",
+      "Pressure_Channel"
     ]
   ],
   "text_variables": {},
