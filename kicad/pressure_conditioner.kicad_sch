@@ -641,33 +641,59 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Pressure:NMK2415SAC"
+		(symbol "Pressure:NMK2415SC"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "PS"
+				(at 21.59 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "NMK2415SC"
+				(at 21.59 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "NMK2415SC"
+				(at 21.59 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://power.murata.com/data/power/ncl/kdc_nmk.pdf"
+				(at 21.59 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Isolated DC/DC Converters +/-15Vout +/-67mA 15Vin 2W SIP"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -678,8 +704,8 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "10.25"
+				(at 21.59 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -687,10 +713,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 21.59 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -698,26 +725,85 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(symbol "NMK2415SAC_0_1"
+			(property "Manufacturer_Part_Number" "NMK2415SC"
+				(at 21.59 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "580-NMK2415SC"
+				(at 21.59 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/NMK2415SC?qs=pygdPweA0Rfl7I9FzmMwVg%3D%3D"
+				(at 21.59 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "NMK2415SC"
+				(at 21.59 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/nmk2415sc/murata-power-solutions?utm_currency=USD&region=nac"
+				(at 21.59 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "NMK2415SC_1_1"
 				(rectangle
-					(start 12.7 0)
-					(end 38.1 12.7)
+					(start 5.08 2.54)
+					(end 20.32 -12.7)
 					(stroke
-						(width 0)
+						(width 0.127)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "NMK2415SAC_1_1"
-				(pin unspecified line
-					(at 15.24 -2.54 90)
-					(length 2.54)
-					(name "+V_in"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "+VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -732,10 +818,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 19.05 -2.54 90)
-					(length 2.54)
-					(name "-V_in"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "-VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -750,10 +836,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 26.67 -2.54 90)
-					(length 2.54)
-					(name "-V_out"
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "-VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -768,10 +854,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 30.48 -2.54 90)
-					(length 2.54)
-					(name "0V_out"
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "OV"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -786,10 +872,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 34.29 -2.54 90)
-					(length 2.54)
-					(name "+V_out"
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "+VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1317,22 +1403,76 @@
 		)
 	)
 	(junction
-		(at 116.84 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7146db49-6b28-4a8c-b727-8405a4696679")
-	)
-	(junction
-		(at 111.76 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac75d692-4e1c-435e-9eb4-2248fb82bc87")
-	)
-	(junction
 		(at 154.94 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df689cc9-329b-4c2f-a9e2-b45e5a93a4f2")
+	)
+	(no_connect
+		(at 38.1 106.68)
+		(uuid "0123b25a-b012-431d-8483-a02a4d4b73ab")
+	)
+	(no_connect
+		(at 38.1 53.34)
+		(uuid "1967a893-b4c2-4a66-8010-c7e40ddd1adf")
+	)
+	(no_connect
+		(at 254 55.88)
+		(uuid "1aa15858-a136-4f31-9ba8-ef73982fa2a4")
+	)
+	(no_connect
+		(at 254 83.82)
+		(uuid "22d740bc-0df6-4bb8-bfee-0e04efcecd88")
+	)
+	(no_connect
+		(at 38.1 81.28)
+		(uuid "2450cbbb-6e86-4309-a4ae-207118794ff2")
+	)
+	(no_connect
+		(at 254 109.22)
+		(uuid "4f089f2f-2bf1-4e8a-8cc8-f05e0ca531f9")
+	)
+	(no_connect
+		(at 38.1 104.14)
+		(uuid "656da948-6964-4154-8875-e520bbfa7378")
+	)
+	(no_connect
+		(at 254 81.28)
+		(uuid "66a22346-e30d-442e-8d0f-325c704538f0")
+	)
+	(no_connect
+		(at 162.56 38.1)
+		(uuid "8319bcd4-7dc4-4578-b0c4-ca0140d9fd04")
+	)
+	(no_connect
+		(at 254 106.68)
+		(uuid "92250407-33e4-47be-a125-bfc019a8155a")
+	)
+	(no_connect
+		(at 254 58.42)
+		(uuid "9c2c9d00-9f4c-474a-9bea-7280ca2512c5")
+	)
+	(no_connect
+		(at 160.02 38.1)
+		(uuid "a6851e2f-8e7f-4c31-abe1-99ca365c50f0")
+	)
+	(no_connect
+		(at 38.1 78.74)
+		(uuid "b91ad51c-13ff-44b9-bab2-d28982ee32fd")
+	)
+	(no_connect
+		(at 38.1 55.88)
+		(uuid "c96a50d0-410d-43fc-b4ba-61e6cb3b86f2")
+	)
+	(wire
+		(pts
+			(xy 193.04 71.12) (xy 193.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00835edb-df0e-436b-92fa-5c28d680e2bd")
 	)
 	(wire
 		(pts
@@ -1363,16 +1503,6 @@
 			(type default)
 		)
 		(uuid "0e751f6e-3d45-472d-8c15-4c5774a6b17f")
-	)
-	(wire
-		(pts
-			(xy 116.84 121.92) (xy 116.84 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10660395-1fc8-4761-8bb9-4ffa2f8dcd45")
 	)
 	(wire
 		(pts
@@ -1436,16 +1566,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 45.72) (xy 184.15 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3556cd03-cacc-41ba-8759-837df2932569")
-	)
-	(wire
-		(pts
 			(xy 80.01 93.98) (xy 88.9 93.98)
 		)
 		(stroke
@@ -1506,6 +1626,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 46.99) (xy 190.5 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5819f9cb-a61c-4891-b659-20e3907dee8e")
+	)
+	(wire
+		(pts
 			(xy 76.2 139.7) (xy 88.9 139.7)
 		)
 		(stroke
@@ -1516,13 +1646,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 71.12) (xy 193.04 76.2)
+			(xy 185.42 46.99) (xy 185.42 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "62cdf0fb-20eb-4222-91ad-04103829a18c")
+		(uuid "5fc163dc-f679-46d7-8336-b95192408f6c")
 	)
 	(wire
 		(pts
@@ -1546,13 +1676,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 127) (xy 116.84 127)
+			(xy 111.76 121.92) (xy 111.76 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6dcd9cf3-796d-408b-9d88-4a9806b8b64e")
+		(uuid "70bd2a49-f0ba-4805-8c33-390e08979e26")
+	)
+	(wire
+		(pts
+			(xy 116.84 121.92) (xy 116.84 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b954dee-da64-470d-876e-6e14ae618eeb")
 	)
 	(wire
 		(pts
@@ -1676,26 +1816,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 45.72) (xy 195.58 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea63603a-76bd-4379-8185-a441edbb99b8")
-	)
-	(wire
-		(pts
-			(xy 111.76 127) (xy 111.76 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5c6a211-e4dd-4c3e-a252-5a8e5746163a")
-	)
-	(wire
-		(pts
 			(xy 156.21 93.98) (xy 165.1 93.98)
 		)
 		(stroke
@@ -1774,7 +1894,7 @@
 		)
 		(uuid "3c21c9e9-d641-4c56-9883-adcc2efae09c")
 	)
-	(label "Vout_P2"
+	(label "Vout_P3"
 		(at 246.38 101.6 0)
 		(effects
 			(font
@@ -1833,84 +1953,6 @@
 			(justify right bottom)
 		)
 		(uuid "bd04d615-b90a-4e72-83bc-de7a2e9838ec")
-	)
-	(symbol
-		(lib_id "power:-15V")
-		(at 193.04 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "036ae35d-4d92-4c85-8bc6-130b3f3d6c9d")
-		(property "Reference" "#PWR027"
-			(at 193.04 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-15V"
-			(at 193.04 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 193.04 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dcbbf01a-61ff-4c95-8322-ec4f32ed2c76")
-		)
-		(instances
-			(project "pressure_conditioner"
-				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1985,6 +2027,240 @@
 			(project "pressure_conditioner"
 				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 190.5 46.99 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19af2db0-fb10-403c-9d26-709e83e62782")
+		(property "Reference" "#PWR012"
+			(at 190.5 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+15V"
+			(at 190.5 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 190.5 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d867679-73d8-40b7-a823-9eb560154aae")
+		)
+		(instances
+			(project "pressure_conditioner"
+				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-15V")
+		(at 116.84 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bc0538b-f27f-40de-80b0-411689aee05c")
+		(property "Reference" "#PWR038"
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-15V"
+			(at 116.84 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "117a9833-3005-4db2-83ac-fcf47c812036")
+		)
+		(instances
+			(project "pressure_conditioner"
+				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 111.76 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "234e0cb6-da9f-4e4b-ac42-f1c39ad077d9")
+		(property "Reference" "#PWR039"
+			(at 111.76 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+15V"
+			(at 111.76 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 111.76 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "378cb745-60a9-4a44-9f29-f68100d6e4e5")
+		)
+		(instances
+			(project "pressure_conditioner"
+				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -2149,160 +2425,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 187.96 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "43d2eb7e-4bb7-4c9b-849d-b8a2f7171a42")
-		(property "Reference" "#PWR030"
-			(at 187.96 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+15V"
-			(at 187.706 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 187.96 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b6b9cae-206b-4532-b526-e9ca74953604")
-		)
-		(instances
-			(project "pressure_conditioner"
-				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
-		(at 199.39 40.64 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "49143fda-fb5a-41e4-83ef-6c4fd779f04b")
-		(property "Reference" "#PWR011"
-			(at 199.39 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+15V"
-			(at 199.39 44.704 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 199.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9666f8c-fa40-4e3b-aad7-8ea8b83a4fd7")
-		)
-		(instances
-			(project "pressure_conditioner"
-				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Pressure:5023520201")
 		(at 154.94 38.1 90)
 		(unit 1)
@@ -2392,97 +2514,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Pressure:NMK2415SAC")
-		(at 165.1 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "50bb18b2-4552-4e6d-95d9-3bc673e31a04")
-		(property "Reference" "U1"
-			(at 181.356 21.336 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "24V +-15V Converter"
-			(at 191.262 23.876 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Pressure:Murata_24-+-15_Conv_NMK2415SC"
-			(at 165.1 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "0ff56aeb-28b4-4e5c-a215-2e046a24d4f1")
-		)
-		(pin "5"
-			(uuid "09f1f6f3-34d4-468a-ae6d-f026d5a61c5a")
-		)
-		(pin "7"
-			(uuid "027f269d-1266-474f-b15f-0d1df55f8fe2")
-		)
-		(pin "1"
-			(uuid "09a8157f-a4e5-47ad-b47c-c0f7db641018")
-		)
-		(pin "2"
-			(uuid "b31abb2b-4016-4daf-80b3-42c10b3d2e98")
-		)
-		(instances
-			(project "pressure_conditioner"
-				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+15V")
-		(at 111.76 71.12 0)
+		(at 187.96 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2490,9 +2523,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "57f073f7-4c11-4819-8496-1de954ba71e2")
-		(property "Reference" "#PWR026"
-			(at 111.76 74.93 0)
+		(fields_autoplaced yes)
+		(uuid "5a3351ef-6c35-4169-a259-5afd9bd7c493")
+		(property "Reference" "#PWR035"
+			(at 187.96 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2503,7 +2537,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 111.506 66.04 0)
+			(at 187.96 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2513,7 +2547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 71.12 0)
+			(at 187.96 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2524,7 +2558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 71.12 0)
+			(at 187.96 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2535,7 +2569,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 111.76 71.12 0)
+			(at 187.96 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2546,12 +2580,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e99f3e7-ad8b-437d-9bf0-216abf0d0254")
+			(uuid "1036679c-3e2b-4101-8921-6c60325ec9f1")
 		)
 		(instances
 			(project "pressure_conditioner"
 				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
-					(reference "#PWR026")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2715,7 +2749,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 45.72 0)
+		(at 187.96 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2726,7 +2760,7 @@
 		(fields_autoplaced yes)
 		(uuid "75431438-bd2e-423a-b32c-526ba059829c")
 		(property "Reference" "#PWR013"
-			(at 195.58 52.07 0)
+			(at 187.96 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2737,7 +2771,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 50.8 0)
+			(at 187.96 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2747,7 +2781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 45.72 0)
+			(at 187.96 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2758,7 +2792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 45.72 0)
+			(at 187.96 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2769,7 +2803,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 45.72 0)
+			(at 187.96 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2793,7 +2827,7 @@
 	)
 	(symbol
 		(lib_id "power:-15V")
-		(at 116.84 71.12 0)
+		(at 185.42 46.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2802,9 +2836,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "78c949c8-f790-4406-920c-15d9b36709b9")
-		(property "Reference" "#PWR09"
-			(at 116.84 74.93 0)
+		(uuid "763f27a0-31a7-4130-99c8-2926ea8e4f60")
+		(property "Reference" "#PWR011"
+			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2815,7 +2849,7 @@
 			)
 		)
 		(property "Value" "-15V"
-			(at 116.84 66.04 0)
+			(at 185.42 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2825,7 +2859,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 71.12 0)
+			(at 185.42 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2836,7 +2870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 71.12 0)
+			(at 185.42 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2847,7 +2881,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 116.84 71.12 0)
+			(at 185.42 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2858,20 +2892,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "741b667a-6dfb-47e8-860a-5d8c2b33b109")
+			(uuid "73583007-5f3d-42b3-8b4a-f75a61031e5c")
 		)
 		(instances
 			(project "pressure_conditioner"
 				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:-15V")
-		(at 191.77 40.64 180)
+		(lib_id "power:+15V")
+		(at 111.76 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2880,9 +2914,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "95f6fd7c-9c7e-41b3-8d84-4d535ae27d03")
-		(property "Reference" "#PWR012"
-			(at 191.77 36.83 0)
+		(uuid "8311b35b-451f-4be7-8ed6-ad085a63b74f")
+		(property "Reference" "#PWR037"
+			(at 111.76 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2892,8 +2926,8 @@
 				)
 			)
 		)
-		(property "Value" "-15V"
-			(at 191.77 45.72 0)
+		(property "Value" "+15V"
+			(at 111.76 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2903,7 +2937,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 40.64 0)
+			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2914,7 +2948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 40.64 0)
+			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2924,8 +2958,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 191.77 40.64 0)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2936,12 +2970,189 @@
 			)
 		)
 		(pin "1"
-			(uuid "67f24b23-f549-41ef-ace2-37bd5c498f53")
+			(uuid "61812fc4-eddb-4fcf-9f52-b2123872af3a")
 		)
 		(instances
 			(project "pressure_conditioner"
 				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
-					(reference "#PWR012")
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pressure:NMK2415SC")
+		(at 180.34 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0e4e773-7eca-4be4-87a3-8ee3932950bf")
+		(property "Reference" "PS1"
+			(at 194.31 26.6699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NMK2415SC"
+			(at 194.31 29.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Pressure:Murata_24-+-15_Conv_NMK2415SC"
+			(at 275.26 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://power.murata.com/data/power/ncl/kdc_nmk.pdf"
+			(at 375.26 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Isolated DC/DC Converters +/-15Vout +/-67mA 15Vin 2W SIP"
+			(at 180.34 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "10.25"
+			(at 575.26 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 675.26 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NMK2415SC"
+			(at 775.26 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "580-NMK2415SC"
+			(at 875.26 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/NMK2415SC?qs=pygdPweA0Rfl7I9FzmMwVg%3D%3D"
+			(at 975.26 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "NMK2415SC"
+			(at 1075.26 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/nmk2415sc/murata-power-solutions?utm_currency=USD&region=nac"
+			(at 1175.26 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "7"
+			(uuid "cf2e0cf5-9b5b-4890-88cb-8b9d463e21d2")
+		)
+		(pin "2"
+			(uuid "23b965da-e687-4d78-9c83-c2c39bacc2f9")
+		)
+		(pin "5"
+			(uuid "2ef7689c-1fb4-44f4-9720-9697582349d4")
+		)
+		(pin "1"
+			(uuid "6e29eb57-c31a-4a70-be8f-043941e39238")
+		)
+		(pin "6"
+			(uuid "f7e5f512-4059-4a5b-84e9-a3cb19ecfbca")
+		)
+		(instances
+			(project "pressure_conditioner"
+				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
+					(reference "PS1")
 					(unit 1)
 				)
 			)
@@ -3283,6 +3494,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-15V")
+		(at 193.04 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c14a0478-2cbc-4f53-b9d3-5778de760326")
+		(property "Reference" "#PWR036"
+			(at 193.04 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-15V"
+			(at 193.04 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 193.04 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3ac98a9-7843-4afa-b191-d0cd07476702")
+		)
+		(instances
+			(project "pressure_conditioner"
+				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Pressure:5023520201")
 		(at 38.1 111.76 180)
 		(unit 1)
@@ -3462,7 +3751,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 45.72 0)
+		(at 182.88 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3473,7 +3762,7 @@
 		(fields_autoplaced yes)
 		(uuid "d69d6b4f-4143-4add-9b7d-e87f8aa4fb97")
 		(property "Reference" "#PWR010"
-			(at 184.15 52.07 0)
+			(at 182.88 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3484,7 +3773,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 50.8 0)
+			(at 182.88 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3494,7 +3783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 45.72 0)
+			(at 182.88 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3505,7 +3794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 45.72 0)
+			(at 182.88 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3516,7 +3805,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 45.72 0)
+			(at 182.88 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3785,83 +4074,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 111.76 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e782b3d0-e63a-471b-a096-1ecf9ea7f084")
-		(property "Reference" "#PWR028"
-			(at 111.76 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+15V"
-			(at 111.506 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 111.76 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15cbb9c9-00d7-4ac0-957c-675e45d5eb54")
-		)
-		(instances
-			(project "pressure_conditioner"
-				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-15V")
 		(at 116.84 121.92 0)
 		(unit 1)
@@ -3872,8 +4084,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ed5cf26d-83dc-4f4e-9c8c-543b6aa66597")
-		(property "Reference" "#PWR029"
+		(uuid "e6ed0b99-a38f-42e1-bdd3-4ec97848a1a9")
+		(property "Reference" "#PWR040"
 			(at 116.84 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3928,12 +4140,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5304fb78-3158-4437-bbf4-657be8ac4e61")
+			(uuid "3480e774-4d5e-4aea-ba3a-164a832e200e")
 		)
 		(instances
 			(project "pressure_conditioner"
 				(path "/d1a2bab1-03ca-4de0-a936-00ed771cb4f3"
-					(reference "#PWR029")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4037,7 +4249,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f8fc09c8-a069-4096-93ae-325845aef4fb")
 		(property "Reference" "#PWR04"
 			(at 250.19 59.69 0)
@@ -4051,7 +4262,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 58.42 0)
+			(at 250.19 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
